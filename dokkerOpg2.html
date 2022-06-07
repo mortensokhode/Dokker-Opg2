@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="varDefinitions.css" rel="stylesheet" >
+    <link href="dokkerOpg2.css" rel="stylesheet" >
+    <base target="_self" />
+  </head>
+
+  <body>
+    <div class="mainContainer">
+
+      <div class="specialContainer" id="specialcontainer-elm">
+        <section>
+          <p class="generalMessages" id="content03-msg"></p>
+          <img class="reducedOpacityImg responsiveImg" id="moon-pct" src="https://images.unsplash.com/photo-1517420878257-463729f65889?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" alt="moon or something"/>
+
+          <p class="subText">
+            Testing multiple classes on an image.
+          </p>
+        </section>
+      </div>
+
+      <div class="topMessages">
+          <button
+              class="button" type="button" id="clickme-btn">Toggle shoecolor
+          </button> 
+
+          <button
+              class="button" type="button" id="errorTest-btn">Toggle errMsg
+          </button> 
+
+          <p class="hiddenText" id="debug-flg" hidden>1</p>
+          <span class="errorMessages" id="errMsg" ></span>
+          <p class="generalMessages" id="messages-gnr"></p>
+          
+      </div>
+
+      <div class="mainMessageBox">
+        <section class="firstSection">
+            <p class="generalMessages" id="length-id"></p>
+            <p class="generalMessages" id="volume-id"></p>
+            <p class="generalMessages" id="mass-id"></p>
+            <p class="contentParagraphs" id="content01-msg"></p>
+        </section>
+
+            <p class="generalMessages" id="content02-msg"></p>
+            
+        <section class="subContainer">
+
+          <section class="fullWidth">
+            <h1>The four seasons - Vivaldi</h1>
+            <h4>Please choose one</h4>
+         </section>
+
+            <input list="season-lst" class="season" name="season" id="season-inp" placeholder="please choose one">
+            <datalist class="season-lst" id="season-lst">
+              <option value="Winter">
+              <option value="Spring">
+              <option value="Summer">
+              <option value="Fall">
+            </datalist> <span class="fuckingshoes" id="shoecolor-elm">shoe color</span>
+          
+            <p class="ordinaryText" id="mini01-msg"></p>
+        </section>
+      </div>
+
+    <script src="dokkerOpg2.js"></script>
+  </body>
+</html>

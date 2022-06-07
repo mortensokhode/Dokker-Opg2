@@ -1,0 +1,24 @@
+:root {
+    /*  Color definitions */
+    --crispyWhite: #ffffff;
+    --theDarkside: #000000;
+    --mainDark: #0b1624;
+    --textBlue: cadetblue;
+    --lightBackground: #D1D4F4;
+    --lightText: #D1D4F4;
+    --lightBorder: #D5D4D8;
+    --bloodyRed: #b70808;
+
+    /* shoes */
+    --initialGrey:#a1a7a3;
+    --springGreen: #079231;
+    --goldenSummer: #cbb245;
+    --brownish: #603713;
+
+    /*  Sie definitions  */
+    /* --mainWidth: 1000px; */
+    --mainWidth: 1000px;
+    --mainHeight: 2000px;
+    --subcontainerWidth: 40%;
+  }
+  
